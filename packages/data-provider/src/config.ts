@@ -597,6 +597,7 @@ export type TProviderSchema =
   | undefined;
 
 export enum KnownEndpoints {
+  thesmcbot = 'thesmcbot',
   anyscale = 'anyscale',
   apipie = 'apipie',
   cohere = 'cohere',
